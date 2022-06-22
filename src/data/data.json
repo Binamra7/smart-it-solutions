@@ -1,0 +1,149 @@
+{
+    "Header": {
+
+        "title": "Smart Tech Services",
+        "paragraph": "Smart is the only company that you need to fulfill your digital needs."
+
+    },
+    "About": {
+        "paragraph": "We are a group of highly skilled, experienced and motivated professionals who are dedicated to providing the best service possible. We are here to help you with your needs.",
+        "Why": [
+            "Efficient and effective",
+            "Fast and reliable",
+            "A Plan For Success",
+            "Cost effective"
+        ],
+        "Why2": [
+            "Quality service",
+            "Meeting Deadlines",
+            "Customer satisfaction",
+            "Attention to details"
+        ]
+    },
+    "Features": [{
+            "icon": "fa fa-comments-o",
+            "title": "Customer Support",
+            "text": "We value our customers and we are here to help you with your needs."
+        },
+        {
+            "icon": "fa fa-bullhorn",
+            "title": "Markeeting",
+            "text": "We help you with the marketing of your product or service."
+        },
+        {
+            "icon": "fa fa-group",
+            "title": "Experts Only",
+            "text": "Our team consists of highly skilled and experienced professionals only."
+        },
+        {
+            "icon": "fa fa-magic",
+            "title": "Smooth services",
+            "text": "Our services are always smooth and we are here to meet your needs."
+        }
+    ],
+    "Services": [{
+            "icon": "fa fa-wordpress",
+            "name": "Blogging",
+            "text": "Well writted blogs are the best way to get your message out to the world. We can help you with the writing of your blog."
+        },
+        {
+            "icon": "fa fa-cart-arrow-down",
+            "name": "Advertisement",
+            "text": "We can help you with the advertisement of your product or service. We can help you with the advertisement of your product or service."
+        },
+        {
+            "icon": "fa fa-cloud-download",
+            "name": "Markeeting",
+            "text": "We can help you with the marketing of your product or service. We can help you with the marketing of your product or service."
+        },
+        {
+            "icon": "fa fa-bug",
+            "name": "Multi Lingual Support",
+            "text": "We are a diverse team of professionals who are dedicated to providing the best service possible. We are here to help you with your needs."
+        },
+        {
+            "icon": "fa fa-plane",
+            "name": "Internatinal Shipping",
+            "text": "We ship in over 150 countries around the world. We can help you with the shipping of your product or service."
+        },
+        {
+            "icon": "fa fa-pie-chart",
+            "name": "Data Visualization",
+            "text": "We create elaborate graphs and charts to help you with your data. We convey the message in pictorial and informative manner."
+        }
+
+
+    ],    
+    "Team": [{
+            "img": "img/team/1.png",
+            "name": "Binamra Khadka",
+            "job": "Full-Stack Developer"
+        },
+        {
+            "img": "img/team/2.png",
+            "name": "Arjun Dahal",
+            "job": "Backend Developer"
+        }, {
+            "img": "img/team/3.png",
+            "name": "Miroj Rai",
+            "job": "Mobile Developer"
+        },
+        {
+            "img": "img/team/4.png",
+            "name": "Anish Baraily",
+            "job": "UI/UX Designer"
+        }
+    ],
+    "ProjectGallery": [
+		{ "thumb": "img/portfolio/01-small.jpg", "title": "Lorem Ipsum1","visit": "https://www.google.com","github":"https://www.github.com/binamra7" },
+		{ "thumb": "img/portfolio/02-small.jpg", "title": "Lorem Ipsum2","visit": "https://www.google.com","github":"https://www.github.com/binamra7" },
+		{ "thumb": "img/portfolio/03-small.jpg", "title": "Lorem Ipsum3","visit": "https://www.google.com","github":"https://www.github.com/binamra7" },
+		{ "thumb": "img/portfolio/04-small.jpg", "title": "Lorem Ipsum4","visit": "https://www.google.com","github":"https://www.github.com/binamra7" },
+		{ "thumb": "img/portfolio/05-small.jpg", "title": "Lorem Ipsum5","visit": "https://www.google.com","github":"https://www.github.com/binamra7" },
+		{ "thumb": "img/portfolio/06-small.jpg", "title": "Lorem Ipsum6","visit": "https://www.google.com","github":"https://www.github.com/binamra7" },
+		{ "thumb": "img/portfolio/07-small.jpg", "title": "Lorem Ipsum7","visit": "https://www.google.com","github":"https://www.github.com/binamra7" },
+		{ "thumb": "img/portfolio/08-small.jpg", "title": "Lorem Ipsum8","visit": "https://www.google.com","github":"https://www.github.com/binamra7" },
+		{ "thumb": "img/portfolio/09-small.jpg", "title": "Lorem Ipsum9","visit": "https://www.google.com","github":"https://www.github.com/binamra7" }
+	],
+    "Contact": {
+        "address": "BudhanilKantha 12, Kathmandu ",
+        "phone": "+977 9841012345",
+        "email": "binamra7khadka6@gmail.com",
+        "facebook": "https://www.facebook.com/whoBinamraKhadka/",
+        "twitter": "https://www.twitter.com/whoKhadka",
+        "github": "https://www.github.com/binamra7",
+        "linked": "https://www.linkedin.com/in/binamra7"
+    },
+    
+    "Testimonials": [{
+            "img": "img/testimonials/01.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "Sushil Gautam"
+        },
+        {
+            "img": "img/testimonials/02.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "Rojan Sanjel"
+        },
+        {
+            "img": "img/testimonials/03.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "Tom Cruise"
+        },
+        {
+            "img": "img/testimonials/04.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "John Doe"
+        },
+        {
+            "img": "img/testimonials/05.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "Ram Thapa"
+        },
+        {
+            "img": "img/testimonials/06.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "Hari Das"
+        }
+    ]
+}
