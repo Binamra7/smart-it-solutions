@@ -2,14 +2,25 @@ body, html {
 	font-family: 'Open Sans', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
-	color: rgb(87, 87, 87);
+	background-color:black;
+	color: rgb(206, 206, 206);
 	font-weight: 400;
 	width: 100% !important;
 	height: 100% !important;
 }
 h2, h3, h4 {
 	font-family: 'Inter', sans-serif;
+	color:rgb(228, 228, 228) !important;
 }
+p {
+	font-family: 'Inter', sans-serif;
+	color:rgb(167, 167, 167) !important;
+}
+#portfolio h3, #portfolio h4 {
+	color: black !important;
+}
+
+
 h2 {
 	text-transform: uppercase;
 	margin: 0 0 20px 0;
@@ -56,11 +67,11 @@ ul, ol {
 	moz-padding: 0;
 }
 hr {
-	height: 2px;
-	width: 70px;
+	height: 1px;
+	width: 70%;
 	text-align: center;
 	position: relative;
-	background: #1E7A46;
+	background: #9ca2ff;
 	margin-bottom: 20px;
 	border: 0;
 }
@@ -225,7 +236,7 @@ header .intro-text {
 /* Features Section */
 #features {
 	padding: 100px 0;
-	background: #f6f6f6;
+	background: black;
 }
 #features i.fa {
 	font-size: 38px;
@@ -289,7 +300,8 @@ header .intro-text {
 /* Services Section */
 #services {
 	padding: 100px 0;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	/* background: linear-gradient(to right, #202020 0%, #000 100%); */
+	background-color:black;
 	color: #fff;
 }
 #services .service-desc {
@@ -408,7 +420,7 @@ header .intro-text {
 /* Testimonials Section */
 #testimonials {
 	padding: 100px 0;
-	background: #f6f6f6;
+	background: #000;
 }
 #testimonials i {
 	color: #e6e6e6;
@@ -442,7 +454,7 @@ header .intro-text {
 	margin-top: 10px;
 	font-size: 15px;
 	font-weight: 600;
-	color: #666;
+	color: rgb(255, 255, 255);
 }
 /* Team Section */
 #team {
@@ -464,10 +476,22 @@ header .intro-text {
 	padding: 10px 0 0 0;
 	color: rgb(68, 68, 68);
 }
+.team_mem:hover {
+	border-radius: 1rem;
+	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+
+}
+.team_social {
+	opacity:0;
+}
+#team .thumbnail:hover .team_social {
+	opacity:1;
+}
 /* Contact Section */
 #contact {
-	padding: 100px 0 60px 0;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	padding: 20px 0 40px 0;
+	/* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
+	background-color:black;
 	color: rgba(255,255,255,.75);
 }
 #contact .section-title {
@@ -510,51 +534,7 @@ header .intro-text {
 	background: transparent;
 	border: 2px solid #fff;
 }
-#contact .btn-custom:hover {
-	color: #1f386e;
-	background: #fff;
-}
-label {
-	font-size: 12px;
-	font-weight: 400;
-	font-family: 'Open Sans', sans-serif;
-	float: left;
-}
-#contact .form-control {
-	display: block;
-	width: 100%;
-	padding: 6px 12px;
-	font-size: 16px;
-	line-height: 1.42857143;
-	color: #444;
-	background-color: #fff;
-	background-image: none;
-	border: 1px solid #ddd;
-	border-radius: 0;
-	-webkit-box-shadow: none;
-	box-shadow: none;
-	-webkit-transition: none;
-	-o-transition: none;
-	transition: none;
-}
-#contact .form-control:focus {
-	border-color: #999;
-	outline: 0;
-	-webkit-box-shadow: transparent;
-	box-shadow: transparent;
-}
-.form-control::-webkit-input-placeholder {
-color: #777;
-}
-.form-control:-moz-placeholder {
-color: #777;
-}
-.form-control::-moz-placeholder {
-color: #777;
-}
-.form-control:-ms-input-placeholder {
-color: #777;
-}
+
 #contact .contact-item {
 	margin: 20px 0;
 }
@@ -566,15 +546,17 @@ color: #777;
 #contact .contact-item i.fa {
 	margin-right: 10px;
 }
+#contact .social_team {
+	border-top: 1px solid rgba(146, 146, 146, 0.15);
+}
 #contact .social {
-	border-top: 1px solid rgba(255,255,255,0.15);
 	padding-top: 50px;
-	margin-top: 50px;
+	margin-top: 0px;
 	text-align: center;
 }
 #contact .social ul li {
 	display: inline-block;
-	margin: 0 20px;
+	margin: 0 10px;
 }
 #contact .social i.fa {
 	font-size: 22px;
@@ -592,12 +574,12 @@ color: #777;
 }
 /* Footer Section*/
 #footer {
-	background: #fff;
+	background: #000;
 	padding: 30px 0;
 }
 #footer p {
-	color: rgb(49, 49, 49);
-	font-size: 16x;
+	color: rgb(192, 192, 192);
+	font-size: 16px;
 }
 #footer a {
 	color: #608dfd;

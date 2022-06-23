@@ -77,21 +77,33 @@
     "Team": [{
             "img": "img/team/1.png",
             "name": "Binamra Khadka",
-            "job": "Full-Stack Developer"
+            "job": "Full-Stack Developer",
+            "facebook": "https://www.facebook.com/whobinamrakhadka",            
+            "linkedin": "https://www.linkedin.com/in/binamra7",
+            "github": "https://www.github.com/binamra7"
         },
         {
             "img": "img/team/2.png",
             "name": "Arjun Dahal",
-            "job": "Backend Developer"
+            "job": "Backend Developer",
+            "facebook": "https://www.facebook.com/whobinamrakhadka",            
+            "linkedin": "https://www.linkedin.com/in/binamra7",
+            "github": "https://www.github.com/binamra7"
         }, {
             "img": "img/team/3.png",
             "name": "Miroj Rai",
-            "job": "Mobile Developer"
+            "job": "Mobile Developer",
+            "facebook": "https://www.facebook.com/whobinamrakhadka",            
+            "linkedin": "https://www.linkedin.com/in/binamra7",
+            "github": "https://www.github.com/binamra7"
         },
         {
             "img": "img/team/4.png",
             "name": "Anish Baraily",
-            "job": "UI/UX Designer"
+            "job": "UI/UX Designer",
+            "facebook": "https://www.facebook.com/whobinamrakhadka",            
+            "linkedin": "https://www.linkedin.com/in/binamra7",
+            "github": "https://www.github.com/binamra7"
         }
     ],
     "ProjectGallery": [
