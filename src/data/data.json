@@ -107,7 +107,7 @@
         }
     ],
     "ProjectGallery": [
-		{ "thumb": "img/portfolio/01-small.jpg", "title": "Lorem Ipsum1","visit": "https://www.google.com","github":"https://www.github.com/binamra7" },
+		{ "thumb": "img/portfolio/01-small.png", "title": "Lorem Ipsum1","visit": "https://www.google.com","github":"https://www.github.com/binamra7" },
 		{ "thumb": "img/portfolio/02-small.jpg", "title": "Lorem Ipsum2","visit": "https://www.google.com","github":"https://www.github.com/binamra7" },
 		{ "thumb": "img/portfolio/03-small.jpg", "title": "Lorem Ipsum3","visit": "https://www.google.com","github":"https://www.github.com/binamra7" },
 		{ "thumb": "img/portfolio/04-small.jpg", "title": "Lorem Ipsum4","visit": "https://www.google.com","github":"https://www.github.com/binamra7" },
