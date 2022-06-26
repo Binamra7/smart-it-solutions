@@ -57,7 +57,7 @@ a {
 }
 a:hover, a:focus {
 	text-decoration: none;
-	color: #608dfd;
+	color: #fd6060;
 }
 ul, ol {
 	list-style: none;
@@ -166,22 +166,25 @@ hr {
 .btn-custom {
 	font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
-	color: #fff;
-	background-color: #5ca9fb;
-	background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+	color: rgb(255, 255, 255);
+	background: linear-gradient(to right, #0067c7 0%, rgb(2, 206, 162) 100%);
+	background-image: linear-gradient(to right, #0166c5 0%, rgb(10, 201, 159) 100%);
+
+	/* background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%); */
 	padding: 14px 34px;
 	letter-spacing: 1px;
 	margin: 0;
 	font-size: 15px;
-	font-weight: 500;
+	font-weight: 600;
 	border-radius: 25px;
 	transition: all 0.5s linear;
 	border: 0;
 }
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
-	color: #fff;
+	color: rgb(255, 255, 255);
 	background-image: none;
-	background-color: #6372ff;
+	background: linear-gradient(to right, #127bdd 0%, rgb(37, 233, 190) 100%);
+
 }
 .btn:active, .btn.active {
 	background-image: none;
@@ -234,6 +237,9 @@ header .intro-text {
 	padding-bottom: 200px;
 	text-align: center;
 }
+.intro-text p {
+	color:white !important;
+}
 /* Features Section */
 #features {
 	padding: 100px 0;
@@ -248,8 +254,9 @@ header .intro-text {
 	height: 100px;
 	padding: 30px 0;
 	border-radius: 50%;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
+	/* background:black; */
+	background: linear-gradient(to right, #0673d8 0%, rgb(21, 231, 186) 100%);
+	box-shadow: 3px 3px 10px rgb(31, 31, 31);
 }
 /* About Section */
 #about {
@@ -326,7 +333,8 @@ header .intro-text {
 	width: 120px;
 	height: 120px;
 	padding: 40px 0;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	/* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
+	background: linear-gradient(to right, #0673d8 0%, rgb(21, 231, 186) 100%);
 	border-radius: 50%;
 	color: #fff;
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
@@ -363,7 +371,7 @@ header .intro-text {
 	text-align: center;
 	margin: 0 auto;
 	color: #fff;
-	background: linear-gradient(to right, rgba(223, 183, 255, 0.8) 0%, rgba(175, 214, 255, 0.8) 100%);
+	background: linear-gradient(to bottom, rgba(185, 99, 255, 0.9) 0%, rgba(193, 230, 255, 0.9)100%);
 	padding: 0 10%;
 	height: 100%;
 	width: 100%;
@@ -383,7 +391,9 @@ header .intro-text {
 	transition: all 0.3s;
 	opacity: 1;
 }
-
+.hover-text a h4,.hover-bg h3 {
+	color:white !important;
+}
 .hover-text > a {
 	height:40px;
 	width:100px;
@@ -479,8 +489,10 @@ header .intro-text {
 }
 .team_mem:hover {
 	border-radius: 1rem;
-	background: linear-gradient(to right, #4255ff 0%, #3798ff 100%);
+	/* background: linear-gradient(to right, #4255ff 0%, #3798ff 100%); */
+	background: linear-gradient(to right, #0673d8 0%, rgb(21, 231, 186) 100%);
 
+	transition: 0.2s ease-in;
 }
 .team_mem:hover p {
 	color:rgb(32, 32, 32) !important;
