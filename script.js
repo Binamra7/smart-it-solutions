@@ -6,4 +6,4 @@ async function init() {
 	await promisify(fs.move)("./build", "./build");
 }
 
-init();
+// init();
