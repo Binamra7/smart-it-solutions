@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en" id="top">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#f2f2ee" media="(prefers-color-scheme: light)" />
+        <meta name="theme-color" content="#131614" media="(prefers-color-scheme: dark)" />
+        <title>Smart IT Solutions — software studio in Kathmandu</title>
+        <meta
+            name="description"
+            content="A four-person studio in Kathmandu that designs and builds web apps, APIs and mobile apps for growing businesses."
+        />
+        <meta name="author" content="Binamra Khadka" />
+        <meta property="og:title" content="Smart IT Solutions" />
+        <meta
+            property="og:description"
+            content="We design and build software for growing businesses. Web, backend, mobile and design."
+        />
+        <meta property="og:image" content="/og.png" />
+        <script>
+            // Apply a stored theme before first paint so there is no flash.
+            try {
+                var t = localStorage.getItem('sis-theme');
+                if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+            } catch (e) {}
+        </script>
+    </head>
+    <body>
+        <noscript>This site needs JavaScript.</noscript>
+        <div id="root"></div>
+        <script type="module" src="/src/main.tsx"></script>
+    </body>
+</html>

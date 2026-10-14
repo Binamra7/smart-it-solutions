@@ -1,0 +1,13 @@
+{
+    "short_name": "Smart IT",
+    "name": "Smart IT Solutions",
+    "icons": [
+        { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml" },
+        { "src": "logo192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+        { "src": "logo512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#f2f2ee",
+    "background_color": "#f2f2ee"
+}

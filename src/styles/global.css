@@ -1,0 +1,198 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 24px;
+    scrollbar-color: var(--ink-2) var(--paper);
+}
+
+body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--font);
+    font-size: var(--fs-18);
+    line-height: 1.5;
+    font-variation-settings: 'wdth' 100;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    overflow-x: clip;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+dl,
+dd,
+figure {
+    margin: 0;
+}
+
+ul,
+ol {
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: inherit;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.2em;
+}
+a:hover {
+    text-decoration-thickness: 2px;
+}
+
+button,
+input,
+select,
+textarea {
+    font: inherit;
+    color: inherit;
+}
+
+::selection {
+    background: var(--spot-web);
+    color: var(--on-spot);
+}
+
+button:not(:disabled),
+select,
+summary,
+input[type='checkbox'],
+input[type='radio'],
+label:has(> input[type='checkbox']),
+label:has(> input[type='radio']) {
+    cursor: pointer;
+}
+
+/* Set by the theme switch for 300ms so a manual change cross-fades instead of snapping. */
+:root[data-theme-switching] *,
+:root[data-theme-switching] *::before,
+:root[data-theme-switching] *::after {
+    transition:
+        background-color 250ms ease,
+        color 250ms ease,
+        border-color 250ms ease !important;
+}
+
+:focus-visible {
+    outline: 2px solid var(--ink);
+    outline-offset: 3px;
+}
+
+.visually-hidden {
+    position: absolute !important;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+}
+
+.skip-link {
+    position: absolute;
+    left: var(--margin);
+    top: -100px;
+    z-index: 10;
+    padding: 8px 12px;
+    background: var(--ink);
+    color: var(--paper);
+    font-size: var(--fs-16);
+}
+.skip-link:focus {
+    top: 12px;
+}
+
+/* The page measure and the 12-column grid. */
+.wrap {
+    width: 100%;
+    max-width: var(--measure);
+    margin-inline: auto;
+    padding-inline: var(--margin);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    column-gap: var(--gutter);
+}
+@media (min-width: 900px) {
+    .grid {
+        grid-template-columns: repeat(12, minmax(0, 1fr));
+    }
+}
+
+/* A section opens on a heavy rule; the title sits right under it. */
+.section {
+    margin-top: var(--space-section);
+}
+.section-head {
+    border-top: var(--rule-w) solid var(--rule-strong);
+    padding-top: 16px;
+    margin-bottom: clamp(32px, 4vw, 56px);
+    align-items: baseline;
+    row-gap: 12px;
+}
+.section-title {
+    grid-column: 1 / -1;
+    font-size: var(--fs-40);
+    font-weight: 700;
+    font-variation-settings: 'wdth' 118;
+    letter-spacing: -0.025em;
+    line-height: 1.05;
+}
+.section-note {
+    color: var(--ink-2);
+    font-size: var(--fs-16);
+    max-width: 44ch;
+}
+@media (min-width: 900px) {
+    .section-title {
+        grid-column: 1 / 8;
+    }
+    .section-note {
+        grid-column: 8 / -1;
+    }
+}
+
+/* A small solid square in a discipline's ink. */
+.swatch {
+    display: inline-block;
+    flex: none;
+    width: 0.75em;
+    height: 0.75em;
+    background: var(--spot);
+}
+
+.tnum {
+    font-variant-numeric: tabular-nums;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}

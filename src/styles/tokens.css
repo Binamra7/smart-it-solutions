@@ -1,0 +1,77 @@
+/* Design tokens. See DESIGN.md for the reasoning; contrast ratios there are verified. */
+
+:root {
+    color-scheme: light;
+
+    /* Inks */
+    --paper: #f2f2ee;
+    --ink: #111412;
+    --ink-2: #505250;
+    --on-spot: #111412;
+
+    /* Spot inks: one per discipline. Fields and marks only, never text on paper. */
+    --spot-web: #74b8ec;
+    --spot-api: #5ec283;
+    --spot-app: #f79e4c;
+    --spot-ui: #f5aecb;
+
+    /* Tints, mixed from the inks above */
+    --paper-2: color-mix(in srgb, var(--ink) 5%, var(--paper));
+    --rule: color-mix(in srgb, var(--ink) 22%, var(--paper));
+    --rule-strong: var(--ink);
+
+    /* Type */
+    --font: 'Mona Sans Variable', 'Helvetica Neue', Arial, sans-serif;
+    --fs-14: 0.875rem;
+    --fs-15: 0.9375rem;
+    --fs-16: 1rem;
+    --fs-18: 1.125rem;
+    --fs-22: 1.375rem;
+    --fs-28: clamp(1.5rem, 1.2rem + 0.8vw, 1.75rem);
+    --fs-40: clamp(1.875rem, 1.3rem + 1.8vw, 2.5rem);
+    --fs-band: clamp(2.25rem, 1rem + 4.6vw, 5.25rem);
+    --fs-display: clamp(2.6rem, 0.9rem + 5.4vw, 6.75rem);
+
+    /* Space & grid */
+    --margin: clamp(16px, 4vw, 56px);
+    --gutter: 24px;
+    --measure: 1440px;
+    --space-section: clamp(72px, 9vw, 144px);
+    --rule-w: 2px;
+    --r-control: 2px;
+
+    /* Motion */
+    --ease: cubic-bezier(0.22, 0.8, 0.24, 1);
+    --dur-print: 700ms;
+    --dur-fade: 180ms;
+}
+
+/* Dark: follows the system unless the visitor picked a theme (data-theme on <html>). */
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme='light']) {
+        color-scheme: dark;
+        --paper: #131614;
+        --ink: #ecede8;
+        --ink-2: #a0a29e;
+    }
+}
+
+:root[data-theme='dark'] {
+    color-scheme: dark;
+    --paper: #131614;
+    --ink: #ecede8;
+    --ink-2: #a0a29e;
+}
+
+[data-discipline='web'] {
+    --spot: var(--spot-web);
+}
+[data-discipline='api'] {
+    --spot: var(--spot-api);
+}
+[data-discipline='app'] {
+    --spot: var(--spot-app);
+}
+[data-discipline='ui'] {
+    --spot: var(--spot-ui);
+}
